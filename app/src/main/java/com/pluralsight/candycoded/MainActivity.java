@@ -27,6 +27,7 @@ import cz.msebera.android.httpclient.Header;
 public class MainActivity extends AppCompatActivity {
     private Candy[] candies;
     private CandyDbHelper candyDbHelper = new CandyDbHelper(this);
+	 private TextView text;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
